@@ -1,4 +1,5 @@
 function sendData(data, endpoint) {
+  console.log(data, endpoint)
   var xhr = new XMLHttpRequest();
   var stringifiedData = JSON.stringify(data);
 
